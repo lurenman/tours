@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:background="@color/MediumSeaGreen" ><!-- -->
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="2dp"
+        android:src="@mipmap/ic_back_normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="7.0dip"
+        android:layout_marginRight="18.0dip"
+        android:layout_marginTop="7.0dip"
+        android:layout_toRightOf="@id/btn_back"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/backgroud_semicircle_white"
+            android:gravity="center_vertical"
+            android:hint="搜索旅游资讯"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/black"
+            android:imeOptions="actionSearch"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textSize="@dimen/url_title_textsize"
+            />
+
+        <ImageView
+            android:id="@+id/iv_clear_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@mipmap/ic_del_normal"/>
+
+        <ImageView
+            android:id="@+id/interval_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:src="@mipmap/top_title_bar_interval"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/iv_search_go"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="#78F0F4F0"
+            android:focusableInTouchMode="false"
+            android:paddingLeft="5.0dip"
+            android:paddingRight="5.0dip"
+            android:scaleType="centerInside"
+            android:src="@mipmap/url_enter_list_ico_search_sch" />
+    </LinearLayout>
+
+</RelativeLayout>

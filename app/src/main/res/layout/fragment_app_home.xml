@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <!--<SlideMenu-->
+    <!--android:id="@+id/slide_menu"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent">-->
+    <!--<include layout="@layout/layout_menu" />-->
+    <include
+        layout="@layout/view_loading_layout"
+        />
+
+        <com.andview.refreshview.XRefreshView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:xrefreshview="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/rv_refreshView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            xrefreshview:isHeightMatchParent="true"
+            xrefreshview:isWidthMatchParent="true">
+
+            <WebView
+                android:id="@+id/wv_webview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/app_theme"
+                android:layerType="none"
+                android:scrollbars="vertical"
+                />
+        </com.andview.refreshview.XRefreshView>
+
+</LinearLayout>

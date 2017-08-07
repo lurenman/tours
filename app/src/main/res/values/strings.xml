@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">旅游资讯app</string>
+    <string name="login">登录</string>
+    <string name="login_by_tuniu_user">途牛账号登录</string>
+    <string name="login_by_dynamic">动态密码登录</string>
+    <string name="changeuser">切换用户</string>
+    <string name="choose_country_title">选择国家或地区</string>
+    <string name="login_id">手机号/会员名/昵称/邮箱</string>
+    <string name="login_password">密码</string>
+    <string name="verify_code">图形验证码</string>
+    <string name="international_login">国际手机号登录</string>
+    <string name="send_dynamic_code">" "<u>发送动态密码</u>" "</string>
+    <string name="reset_password">找回密码</string>
+    <string name="login_submit">登录</string>
+    <string name="login_register">注册新用户</string>
+    <string name="label_partner_login">第三方账号登录</string>
+    <string name="name">姓名</string>
+    <string name="input_mandatory">必填</string>
+    <string name="male">男</string>
+    <string name="tourist_sex">性别</string>
+    <string name="female">女</string>
+    <string name="tourist_birthday">出生日期</string>
+    <string name="choose_birthday">选择您的出生日期</string>
+    <string name="tourist_english_name">英文姓名</string>
+    <string name="english_name_hint"><font size="12">护照或港澳通行证存在，则必填</font></string>
+    <string name="optional">选填</string>
+    <string name="tourist_document">证件</string>
+    <string name="add_document">添加证件</string>
+    <string name="scan_first_open_tips">初始化相机中，请耐心等待...</string>
+    <string name="modify_header_save">保存</string>
+    <string name="phone">手机</string>
+
+
+</resources>

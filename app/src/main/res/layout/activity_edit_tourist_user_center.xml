@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/default_background">
+
+    <include
+        android:id="@id/layout_header"
+        layout="@layout/header_with_back_and_scan"/>
+
+    <ScrollView
+        android:id="@id/sv_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_header"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@id/ll_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@id/rl_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="20.0dip">
+
+                <TextView
+                    android:id="@id/tv_name_title"
+                    android:layout_width="120.0dip"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10.0dip"
+                    android:paddingTop="10.0dip"
+                    android:text="@string/name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/ts_normal"/>
+
+                <EditText
+                    android:id="@id/et_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv_name_title"
+                    android:hint="@string/input_mandatory"
+                    android:paddingBottom="10.0dip"
+                    android:paddingTop="10.0dip"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/ts_normal"
+                    android:visibility="visible"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/h_divider"
+                    android:layout_below="@id/et_name"
+                    android:background="@color/divider"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@id/rl_gender"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="20.0dip">
+
+                <TextView
+                    android:id="@id/tv_gender_title"
+                    android:layout_width="120.0dip"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10.0dip"
+                    android:paddingTop="10.0dip"
+                    android:text="@string/tourist_sex"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/ts_normal"/>
+
+                <RadioGroup
+                    android:id="@id/ll_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/tv_gender_title"
+                    android:layout_alignTop="@id/tv_gender_title"
+                    android:layout_toRightOf="@id/tv_gender_title"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@id/rb_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/radio_buttom_selector"
+                        android:drawablePadding="5.0dip"
+                        android:gravity="center"
+                        android:text="@string/male"
+                        android:textColor="@color/black"/>
+
+                    <RadioButton
+                        android:id="@id/rb_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35.0dip"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/radio_buttom_selector"
+                        android:drawablePadding="5.0dip"
+                        android:gravity="center"
+                        android:text="@string/female"
+                        android:textColor="@color/black"/>
+                </RadioGroup>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/h_divider"
+                    android:layout_below="@id/ll_gender"
+                    android:background="@color/divider"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@id/rl_birthday"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="20.0dip">
+
+                <TextView
+                    android:id="@id/tv_birthday_title"
+                    android:layout_width="120.0dip"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10.0dip"
+                    android:paddingTop="10.0dip"
+                    android:text="@string/tourist_birthday"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/ts_normal"/>
+
+                <EditText
+                    android:id="@+id/et_birthday"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/tv_birthday_title"
+                    android:layout_alignTop="@id/tv_birthday_title"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv_birthday_title"
+                    android:drawablePadding="10.0dip"
+                    android:drawableRight="@drawable/down_arrow_green"
+                    android:hint="@string/choose_birthday"
+                    android:paddingBottom="10.0dip"
+                    android:paddingTop="10.0dip"
+                    android:textColor="@color/green_light_2"
+                    android:textColorHint="@color/green_light_2"
+                    android:textSize="@dimen/ts_normal"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/h_divider"
+                    android:layout_below="@id/et_birthday"
+                    android:background="@color/divider"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@id/rl_english_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="20.0dip">
+
+                <TextView
+                    android:id="@id/tv_english_name_title"
+                    android:layout_width="120.0dip"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10.0dip"
+                    android:paddingTop="10.0dip"
+                    android:text="@string/tourist_english_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/ts_normal"/>
+                <!--android:drawableRight="@drawable/arrow_destination_tab"-->
+                <EditText
+                    android:id="@id/tv_english_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/tv_english_name_title"
+                    android:layout_alignTop="@id/tv_english_name_title"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv_english_name_title"
+                    android:hint="@string/english_name_hint"
+                    android:maxLength="50"
+                    android:paddingBottom="10.0dip"
+                    android:paddingTop="10.0dip"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/ts_normal"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/h_divider"
+                    android:layout_below="@id/tv_english_name_title"
+                    android:background="@color/divider"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@id/rl_phone_number"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="20.0dip">
+
+                <TextView
+                    android:id="@id/tv_phone_number_title"
+                    android:layout_width="120.0dip"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10.0dip"
+                    android:paddingTop="10.0dip"
+                    android:text="@string/phone"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/ts_normal"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_toRightOf="@id/tv_phone_number_title"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@id/tv_country_tel"
+                        android:layout_width="110.0dip"
+                        android:layout_height="fill_parent"
+                        android:drawableRight="@drawable/arrow_destination_tab"
+                        android:gravity="center_vertical"
+                        android:paddingRight="5.0dip"
+                        android:visibility="gone"/>
+
+                    <EditText
+                        android:id="@id/et_phone_number"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:hint="@string/optional"
+                        android:inputType="phone"
+                        android:maxLength="11"
+                        android:paddingBottom="10.0dip"
+                        android:paddingTop="10.0dip"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/ts_normal"
+                        android:visibility="visible"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:background="@color/white"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="20.0dip">
+
+                <TextView
+                    android:id="@id/tv_card_type_title"
+                    android:layout_width="120.0dip"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10.0dip"
+                    android:paddingTop="10.0dip"
+                    android:text="@string/tourist_document"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/ts_normal"/>
+
+                <TextView
+                    android:id="@id/tv_card_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:hint="@string/add_document"
+                    android:paddingBottom="10.0dip"
+                    android:paddingTop="10.0dip"
+                    android:singleLine="true"
+                    android:textColor="@color/green_light_2"
+                    android:textColorHint="@color/green_light_2"
+                    android:textSize="@dimen/ts_normal"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/h_divider"
+                    android:layout_below="@id/tv_card_type_title"
+                    android:background="@color/divider"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ListView
+        android:id="@id/lv_cards"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_save_button"
+        android:layout_below="@id/sv_info"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@id/tv_save_button"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:background="@drawable/button_corner_4dp_green_11"
+        android:gravity="center"
+        android:text="@string/modify_header_save"
+        android:textColor="@color/white"
+        android:textSize="@dimen/ts_large"/>
+    <!--<com.tuniu.app.ui.productorder.view.TouristOcrScanTipView android:id="@id/ocr_tip_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />-->
+    <LinearLayout
+        android:id="@id/ll_loading_ocr"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/alpha_black_50"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_niu_white_62"
+            android:drawablePadding="6.0dip"
+            android:gravity="center_vertical"
+            android:text="@string/scan_first_open_tips"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ts_normal"/>
+    </LinearLayout>
+</RelativeLayout>

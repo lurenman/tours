@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tv_dynamic_code">false</item>
+    <item type="id" name="login_register">false</item>
+    <item type="id" name="layout_header">false</item>
+    <item type="id" name="sv_info">false</item>
+    <item type="id" name="ll_content">false</item>
+    <item type="id" name="rl_name">false</item>
+    <item type="id" name="tv_name_title">false</item>
+    <item type="id" name="et_name">false</item>
+    <item type="id" name="rl_gender">false</item>
+    <item type="id" name="tv_gender_title">false</item>
+    <item type="id" name="ll_gender">false</item>
+    <item type="id" name="rb_male">false</item>
+    <item type="id" name="rb_female">false</item>
+    <item type="id" name="tv_back">false</item>
+    <item type="id" name="tv_header_title">false</item>
+    <item type="id" name="tv_scan">false</item>
+    <item type="id" name="v_header_divider">false</item>
+    <item type="id" name="rl_birthday">false</item>
+    <item type="id" name="tv_birthday_title">false</item>
+    <item type="id" name="tv_birthday">false</item>
+    <item type="id" name="rl_english_name">false</item>
+    <item type="id" name="tv_english_name_title">false</item>
+    <item type="id" name="tv_english_name">false</item>
+    <item type="id" name="rl_phone_number">false</item>
+    <item type="id" name="tv_phone_number_title">false</item>
+    <item type="id" name="tv_country_tel">false</item>
+    <item type="id" name="et_phone_number">false</item>
+    <item type="id" name="tv_card_type_title">false</item>
+    <item type="id" name="tv_card_type">false</item>
+    <item type="id" name="lv_cards">false</item>
+    <item type="id" name="tv_save_button">false</item>
+    <item type="id" name="ll_loading_ocr">false</item>
+
+</resources>

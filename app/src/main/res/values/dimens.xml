@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="url_title_textsize">14.0sp</dimen>
+    <dimen name="ts_large">17.0sp</dimen>
+    <dimen name="ts_bigger">16.0sp</dimen>
+    <dimen name="divider">0.5dip</dimen>
+    <dimen name="h_divider">0.5dip</dimen>
+    <dimen name="ts_normal">14.0sp</dimen>
+    <item type="dimen" name="ts_header_title">@dimen/ts_large</item>
+    <dimen name="h_header">50.0dip</dimen>
+
+</resources>

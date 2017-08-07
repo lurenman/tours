@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#ffb3b3b3</color>
+    <color name="red">#3097fd</color>
+    <color name="transparent">#00000000</color>
+    <color name="dark">#ff333333</color>
+    <color name="mid_dark">#ff555555</color>
+    <color name="low_dark">#ff666666</color>
+    <color name="menu_item_bg_press">#33b3b3b3</color>
+    <color name="menu_text_color">#ff4f4f4f</color>
+    <color name="skin_default_blue">#ff4180d9</color>
+    <color name="skin_night">#ff373838</color>
+    <color name="skin_gray">#ff777777</color>
+    <color name="bg_web_content">#ffebecf0</color>
+    <color name="search_hint_text_color">#ffaaaaaa</color>
+    <color name="search_hint_text_color_night">#ff666666</color>
+    <color name="threesixzerogreen">#3097fd</color>
+    <color name="normal_speed_gray">#ffaaabbb</color>
+    <color name="grey">#ffc1c4c1</color>
+    <color name="green">#3097fd</color>
+    <!--
+    <color name="web_tabbar_textcolor">#ff1e1e1e</color>
+    <color name="web_tabbar_textcolor_night">#ff4a677a</color>
+
+
+
+    -->
+    <color name="web_tabbar_textcolor">#FF555555</color>
+    <color name="web_tabbar_textcolor_night">#FF555555</color>
+    <color name="web_default_textcolor">#FF555555</color>
+    <color name="web_dlg_msg_color">#ff4f4f4f</color>
+    <color name="web_listitem_title_textcolor">#FF626768</color>
+    <color name="web_listitem_info_textcolor">#FF888888</color>
+    <color name="bg_web_edittext">#fff8f8f8</color>
+    <color name="bg_web_edittext_night">#ff181923</color>
+    <color name="settings_item_press_color">#ffececec</color>
+    <color name="web_listitem_press_color">#ffe8eaf0</color>
+    <color name="web_listitem_press_color_night">#ff32363b</color>
+    <color name="web_btn_press_color">#ffd5d8db</color>
+    <color name="web_btn_press_color_night">#ff32363b</color>
+    <color name="btn_feedback_color">#ff218bdc</color>
+    <color name="btn_feedback_press_color">#ff62aae0</color>
+    <color name="web_recommand_sites_textcolor">#ff4d4d4d</color>
+    <color name="website_line">#285c6270</color>
+    <color name="holo_wite">#ffdbdbdb</color>
+    <color name="manager_seletced_color">#285c6270</color>
+    <color name="app_theme">#3097fd</color>
+    <color name="app_theme_light">#1287fc</color>
+    <color name="blue">#fff8f8f8</color>
+    <color name="translucent">#50000000</color>
+    <color name="ForestGreen">#228B22</color>
+    <color name="Green">#008000</color>
+    <color name="SpringGreen">#00FF7F</color>
+    <color name="SeaGree">#2E8B57</color>
+    <color name="MediumSeaGreen">#3CB371</color>
+    <color name="green_light_2">#ff33bd61</color>
+    <color name="dark_gray">#ff666666</color>
+    <color name="divider_dark">#ffcccccc</color>
+    <color name="alpha_white_75">#bfffffff</color>
+    <color name="orange">#ffff8a00</color>
+    <color name="default_background">#fff0f0f0</color>
+    <color name="divider">#ffe8e8e8</color>
+    <color name="header_background">@color/gray_white</color>
+    <color name="gray_white">#fff8f8f8</color>
+    <color name="gray_2">#fff0f0f0</color>
+    <color name="header_title">@color/dark_black</color>
+    <color name="dark_black">#ff000000</color>
+    <color name="header_divider">#ffc6c6c6</color>
+    <color name="alpha_black_50">#80000000</color>
+    <color name="green_11">#ff23cc77</color>
+    <color name="green_click">#ff29974e</color>
+    <color name="bt_bg_pressed">#33ADCFD6</color>
+
+
+</resources>

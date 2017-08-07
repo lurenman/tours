@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/suolong">
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <com.example.administrator.ewmarket.app.View.RoundImageView
+            android:id="@+id/slidemenu_user_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerInside"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/ic_person_center"/>
+            <TextView
+                android:id="@+id/slidemenu_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_gravity="bottom"
+                android:padding="5dp"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            style="@style/style_bt_text"
+            android:drawableLeft="@mipmap/tab_news"
+            android:text="新闻"/>
+
+        <TextView
+            style="@style/style_bt_text"
+            android:drawableLeft="@mipmap/tab_read"
+            android:text="订购"/>
+
+        <TextView
+            style="@style/style_bt_text"
+            android:drawableLeft="@mipmap/tab_local"
+            android:text="本地"/>
+
+        <TextView
+            style="@style/style_bt_text"
+            android:drawableLeft="@mipmap/tab_ties"
+            android:text="评论"/>
+
+        <TextView
+            style="@style/style_bt_text"
+            android:drawableLeft="@mipmap/tab_pics"
+            android:text="图片"/>
+
+        <TextView
+            style="@style/style_bt_text"
+            android:drawableLeft="@mipmap/tab_ugc"
+            android:text="话题"/>
+
+        <TextView
+            style="@style/style_bt_text"
+            android:drawableLeft="@mipmap/tab_vote"
+            android:text="漫画"/>
+
+        <TextView
+            style="@style/style_bt_text"
+            android:drawableLeft="@mipmap/tab_focus"
+            android:text="退出"/>
+
+    </LinearLayout>
+
+</FrameLayout>

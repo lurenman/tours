@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="xRefreshView_RefreshingStyle">
+        <item name="android:indeterminateDrawable">@drawable/xrefreshview_progress_gift_loading
+        </item>
+        <item name="android:minHeight">8dp</item>
+        <item name="android:maxHeight">8dp</item>
+        <item name="android:minWidth">8dp</item>
+        <item name="android:maxWidth">8dp</item>
+    </style>
+</resources>
